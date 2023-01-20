@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/preload.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/navigation.css">
   <link rel="stylesheet" href="css/main-link.css">
@@ -15,6 +16,10 @@
   <link rel="stylesheet" href="css/price.css">
   <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/reserve.css">
+  <link rel="stylesheet" href="css/radio.css">
+   
+  <script src="js/script.js"></script>
   <title>Chik-Chik</title>
 </head>
 
@@ -143,48 +148,48 @@
 
         <ul class="about__list about-list">
 
-          <li class="about-list__item about-item">
-            <svg width="80" height="80" viewBox="0 0 80 80">
+          <li class="about__item about__item_1 about-item">
+            <!-- <svg width="80" height="80" viewBox="0 0 80 80">
               <use xlink:href="sprite.svg#about-1"></use>
-            </svg>
-            <div class="about-item__content">
-              <h3 class="about-item__title">
-                топ специалисты
-              </h3>
-              <p class="about-item__description">
-                Мы подстрижем вас  на высшем уровне
-              </p>
-            </div>
+            </svg> -->
+
+            <h3 class="about-item__title">
+              топ специалисты
+            </h3>
+            <p class="about-item__description">
+              Мы подстрижем вас  на высшем уровне
+            </p>
+
           </li>
 
 
-          <li class="about-list__item about-item">
-            <svg width="80" height="80" viewBox="0 0 80 80">
+          <li class="about__item about__item_2 about-item">
+            <!-- <svg width="80" height="80" viewBox="0 0 80 80">
               <use xlink:href="sprite.svg#about-2"></use>
-            </svg>
-            <div class="about-item__content">
-              <h3 class="about-item__title">
-                мастера бород и усов
-              </h3>
-              <p class="about-item__description">
-                Мы заботливо уложим  вашу бороду и усы
-              </p>
-            </div>
+            </svg> -->
+
+            <h3 class="about-item__title">
+              мастера бород и&nbsp;усов
+            </h3>
+            <p class="about-item__description">
+              Мы заботливо уложим  вашу бороду и усы
+            </p>
+
           </li>
 
 
-          <li class="about-list__item about-item">
-            <svg width="80" height="80" viewBox="0 0 80 80">
+          <li class="about__item about__item_3 about-item">
+            <!-- <svg width="80" height="80" viewBox="0 0 80 80">
               <use xlink:href="sprite.svg#about-3"></use>
-            </svg>
-            <div class="about-item__content">
-              <h3 class="about-item__title">
-                гарантия качества
-              </h3>
-              <p class="about-item__description">
-                Мы используем только профессиональные средства
-              </p>
-            </div>
+            </svg> -->
+
+            <h3 class="about-item__title">
+              гарантия качества
+            </h3>
+            <p class="about-item__description">
+              Мы используем только профессиональные средства
+            </p>
+
           </li>
 
         </ul>
@@ -251,27 +256,27 @@
 
               <label class="radio">
                 <input class="radio__input" type="radio" name="specialist">
-                <span class="radio__label radio__label_spec">Игорь</span>
+                <span class="radio__label radio__label_spec" style="--bg-image:url(../img/spec-1.png)">Игорь</span>
               </label>
 
               <label class="radio">
                 <input class="radio__input" type="radio" name="specialist">
-                <span class="radio__label radio__label_spec">Анатолий</span>
+                <span class="radio__label radio__label_spec" style="--bg-image:url(../img/spec-2.png)">Анатолий</span>
               </label>
 
               <label class="radio">
                 <input class="radio__input" type="radio" name="specialist">
-                <span class="radio__label radio__label_spec">Руслан</span>
+                <span class="radio__label radio__label_spec" style="--bg-image:url(../img/spec-3.png)">Руслан</span>
               </label>
 
               <label class="radio">
                 <input class="radio__input" type="radio" name="specialist">
-                <span class="radio__label radio__label_spec">Михаил</span>
+                <span class="radio__label radio__label_spec" style="--bg-image:url(../img/spec-4.png)">Михаил</span>
               </label>
 
               <label class="radio">
                 <input class="radio__input" type="radio" name="specialist">
-                <span class="radio__label radio__label_spec">Евгений</span>
+                <span class="radio__label radio__label_spec" style="--bg-image:url(../img/spec-5.png)">Евгений</span>
               </label>
             </fieldset>
 
@@ -358,11 +363,10 @@
               </fieldset>
             </fieldset>
           </div>
-          <button class="reserve__btn main-link" disabled>
+          <button class="reserve__btn main-link" >
             Записаться
           </button>
         </form>
-
 
       </div>
     </section>
